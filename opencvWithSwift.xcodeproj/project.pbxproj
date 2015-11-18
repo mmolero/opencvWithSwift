@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49F59A741BFD33AB0046FB1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F59A731BFD33AB0046FB1D /* AppDelegate.swift */; };
+		49F59A761BFD33AB0046FB1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F59A751BFD33AB0046FB1D /* ViewController.swift */; };
+		49F59A791BFD33AB0046FB1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F59A771BFD33AB0046FB1D /* Main.storyboard */; };
+		49F59A7B1BFD33AB0046FB1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F59A7A1BFD33AB0046FB1D /* Assets.xcassets */; };
+		49F59A7E1BFD33AB0046FB1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F59A7C1BFD33AB0046FB1D /* LaunchScreen.storyboard */; };
+		49F59A881BFD33FC0046FB1D /* Filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 49F59A861BFD33FC0046FB1D /* Filter.cpp */; };
+		49F59A901BFD35A10046FB1D /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F59A8F1BFD35A10046FB1D /* opencv2.framework */; };
+		49F59A921BFD360B0046FB1D /* ObjFilter.mm in Sources */ = {isa = PBXBuildFile; fileRef = 49F59A911BFD360B0046FB1D /* ObjFilter.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49F59A701BFD33AB0046FB1D /* opencvWithSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = opencvWithSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F59A731BFD33AB0046FB1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49F59A751BFD33AB0046FB1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49F59A781BFD33AB0046FB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49F59A7A1BFD33AB0046FB1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F59A7D1BFD33AB0046FB1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F59A7F1BFD33AB0046FB1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F59A851BFD33FB0046FB1D /* opencvWithSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "opencvWithSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		49F59A861BFD33FC0046FB1D /* Filter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Filter.cpp; sourceTree = "<group>"; };
+		49F59A871BFD33FC0046FB1D /* Filter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Filter.hpp; sourceTree = "<group>"; };
+		49F59A8F1BFD35A10046FB1D /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = opencvWithSwift/opencv2.framework; sourceTree = "<group>"; };
+		49F59A911BFD360B0046FB1D /* ObjFilter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjFilter.mm; sourceTree = "<group>"; };
+		49F59A931BFD36690046FB1D /* ObjFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjFilter.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F59A6D1BFD33AB0046FB1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F59A901BFD35A10046FB1D /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49F59A671BFD33AB0046FB1D = {
+			isa = PBXGroup;
+			children = (
+				49F59A8F1BFD35A10046FB1D /* opencv2.framework */,
+				49F59A721BFD33AB0046FB1D /* opencvWithSwift */,
+				49F59A711BFD33AB0046FB1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49F59A711BFD33AB0046FB1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F59A701BFD33AB0046FB1D /* opencvWithSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F59A721BFD33AB0046FB1D /* opencvWithSwift */ = {
+			isa = PBXGroup;
+			children = (
+				49F59A731BFD33AB0046FB1D /* AppDelegate.swift */,
+				49F59A751BFD33AB0046FB1D /* ViewController.swift */,
+				49F59A771BFD33AB0046FB1D /* Main.storyboard */,
+				49F59A7A1BFD33AB0046FB1D /* Assets.xcassets */,
+				49F59A7C1BFD33AB0046FB1D /* LaunchScreen.storyboard */,
+				49F59A7F1BFD33AB0046FB1D /* Info.plist */,
+				49F59A861BFD33FC0046FB1D /* Filter.cpp */,
+				49F59A871BFD33FC0046FB1D /* Filter.hpp */,
+				49F59A851BFD33FB0046FB1D /* opencvWithSwift-Bridging-Header.h */,
+				49F59A911BFD360B0046FB1D /* ObjFilter.mm */,
+				49F59A931BFD36690046FB1D /* ObjFilter.h */,
+			);
+			path = opencvWithSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F59A6F1BFD33AB0046FB1D /* opencvWithSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F59A821BFD33AB0046FB1D /* Build configuration list for PBXNativeTarget "opencvWithSwift" */;
+			buildPhases = (
+				49F59A6C1BFD33AB0046FB1D /* Sources */,
+				49F59A6D1BFD33AB0046FB1D /* Frameworks */,
+				49F59A6E1BFD33AB0046FB1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = opencvWithSwift;
+			productName = opencvWithSwift;
+			productReference = 49F59A701BFD33AB0046FB1D /* opencvWithSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F59A681BFD33AB0046FB1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Miguel Molero";
+				TargetAttributes = {
+					49F59A6F1BFD33AB0046FB1D = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 49F59A6B1BFD33AB0046FB1D /* Build configuration list for PBXProject "opencvWithSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F59A671BFD33AB0046FB1D;
+			productRefGroup = 49F59A711BFD33AB0046FB1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F59A6F1BFD33AB0046FB1D /* opencvWithSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F59A6E1BFD33AB0046FB1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F59A7E1BFD33AB0046FB1D /* LaunchScreen.storyboard in Resources */,
+				49F59A7B1BFD33AB0046FB1D /* Assets.xcassets in Resources */,
+				49F59A791BFD33AB0046FB1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F59A6C1BFD33AB0046FB1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F59A761BFD33AB0046FB1D /* ViewController.swift in Sources */,
+				49F59A881BFD33FC0046FB1D /* Filter.cpp in Sources */,
+				49F59A741BFD33AB0046FB1D /* AppDelegate.swift in Sources */,
+				49F59A921BFD360B0046FB1D /* ObjFilter.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49F59A771BFD33AB0046FB1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F59A781BFD33AB0046FB1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49F59A7C1BFD33AB0046FB1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F59A7D1BFD33AB0046FB1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F59A801BFD33AB0046FB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49F59A811BFD33AB0046FB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F59A831BFD33AB0046FB1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/opencvWithSwift",
+				);
+				INFOPLIST_FILE = opencvWithSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nx-open-solutions.opencvWithSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "opencvWithSwift/opencvWithSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49F59A841BFD33AB0046FB1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/opencvWithSwift",
+				);
+				INFOPLIST_FILE = opencvWithSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nx-open-solutions.opencvWithSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "opencvWithSwift/opencvWithSwift-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F59A6B1BFD33AB0046FB1D /* Build configuration list for PBXProject "opencvWithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F59A801BFD33AB0046FB1D /* Debug */,
+				49F59A811BFD33AB0046FB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F59A821BFD33AB0046FB1D /* Build configuration list for PBXNativeTarget "opencvWithSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F59A831BFD33AB0046FB1D /* Debug */,
+				49F59A841BFD33AB0046FB1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49F59A681BFD33AB0046FB1D /* Project object */;
+}
